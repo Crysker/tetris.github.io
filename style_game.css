@@ -1,0 +1,27 @@
+
+.wrapper {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  height: 100vh;
+  gap: 12px;
+}
+
+
+   body {
+    background-image: url("./assets/background.png");
+    margin: 0;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    color: rgb(133, 204, 198);
+    -webkit-text-stroke-width: 2px;
+    -webkit-text-stroke-color: black;
+   }
+   .name {
+    font-size: 50px;
+
+  }
+#canvas{
+    border:white 5px solid;
+    
+}

@@ -1,0 +1,48 @@
+
+.wrapper {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  height: 90vh;
+  gap: 12px;
+}
+
+body {
+    background-image: url("./assets/background.png");
+    margin: 0;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    color: rgb(0, 0, 0);
+   }
+   .name {
+    font-size: 50px;
+
+  }
+
+#canvas{
+    border:white 5px solid;
+    background-color: black;
+}
+
+.button{
+  width: 200px;
+  height: 80px;
+  
+  background: transparent;
+  border: 10px solid #b6c6d4;
+  outline: none;
+  transition: 2s ease-in-out;
+  font-size: 30px;
+}
+
+a:hover, a:visited, a:link, a:active
+{
+    text-decoration: none;
+    color: rgb(255, 255, 255);
+  
+  }
+
+  
+img{
+  height: 500px;
+}
